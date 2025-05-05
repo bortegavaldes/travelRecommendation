@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav fxd-z1">
+        <div id="logo">
+            <span>
+                <b>
+                    <i class="fa fa-map-marker"></i>
+                    <span id="tvl-txt">Travel Recommendation</span>
+                </b>
+            </span>
+        </div>
+        <ul id="nav-items">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#contact-us">Contact us</a></li>
+        </ul>
+        <div id="search-section">
+            <input id="ipt-search" type="text" placeholder="Enter a destination or keyword">
+            <i id="btn-fa-search" class="fa fa-search"></i>
+            <button id="src-btn">Search</button>
+            <button id="res-btn">Reset</button>
+        </div>
+    </div>
+    <div id="lat-icons" class="dpy-blk fxd-z1">
+        <div class="vertical-line"></div>
+        <div id="social-media">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-pinterest-p"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </div>
+
+    <section id="home" class="dpy-flx">
+        <div id="tit-desc" class="dpy-blk">
+            <h1 class="title">EXPLORE DREAM DESTINATION</h1>
+            <p class="desc">Welcome to travel recommendation!. Here you'll find suggestions for attractive and
+                interesting places to travel. You can search an specific term of your interes in the search bar or
+                go to
+                About Us or Contact Us sections from the navigation bar.</p>
+        </div>
+        <div id="results">
+
+        </div>
+    </section>
+    <section id="about-us" class="dpy-flx">
+        <div class="dpy-blk">
+            <h1 class="title">ABOUT US</h1>
+            <p class="desc">Welcome to our company!. We are a team with mission to provide high quality services for
+                helping our clients to find their best suitable destination for their vacations or relaxing travels.
+                We invite you to explore our site to know better our services and here below we present our team.
+            </p>
+            <div id="team" class="dpy-flx mg-top">
+                <h1 class="title title-lvl2">Our Team</h1>
+                <div class="dpy-flx card-member">
+                    <i class="fa fa-user"></i>
+                    <div>
+                        <b>Beatriz Ortega</b>
+                        <p>Responsible for the direction and function of the company.</p>
+                        <button class="btn-amp">CEO</button>
+                    </div>
+                </div>
+                <div class="dpy-flx card-member">
+                    <i class="fa fa-user"></i>
+                    <div>
+                        <b>Vladimir Ortega</b>
+                        <p>Responsible for organizing and coordinating work.</p>
+                        <button class="btn-amp">Team Leader</button>
+                    </div>
+                </div>
+                <div class="dpy-flx card-member">
+                    <i class="fa fa-user"></i>
+                    <div>
+                        <b>Maria Valdes</b>
+                        <p>Responsible for ensuring the efficient delivery of services.</p>
+                        <button class="btn-amp">Delivery Head</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-us" class="dpy-flx">
+        <div class="dpy-blk">
+            <h1 class="title wdt-auto">CONTACT US</h1>
+            <form>
+                <label for="name">
+                    Name
+                </label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <label for="email">
+                    Email
+                </label>
+                <input type="text" id="email" placeholder="Enter your email">
+                <label for="message">
+                    Message
+                </label>
+                <textarea name="message" id="message" placeholder="Message"></textarea>
+                <button class="btn-amp"
+                    onclick="alert('Thanks for your interest!. We will respond to you soon.')">Submit</button>
+            </form>
+        </div>
+    </section>
+    <script src="./travel_recommendation.js"></script>
+</body>
+
+</html>

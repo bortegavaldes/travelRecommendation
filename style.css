@@ -1,0 +1,248 @@
+:root {
+    --main-color: DarkTurquoise;
+    --bg-cont: DarkSlateGrey;
+    --color-gr: Gainsboro;
+    --lines-txt: white;
+    --max-width-ct: 700px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+section {
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(to right, rgb(0, 206, 209), transparent), url("images/rancho_beach.jpg");
+    position: relative;
+    min-height: 100%;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--bg-cont);
+    color: var(--lines-txt);
+    height: 8vh;
+}
+
+#nav-items {
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+    gap: 20px;
+    font-size: 0.9rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--lines-txt);
+}
+
+#search-section {
+    background-color: white;
+    border-radius: 20px;
+    width: 360px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+#ipt-search {
+    margin-left: 10px;
+    width: 100%;
+    border: none;
+    overflow: visible;
+}
+
+a:hover {
+    color: var(--main-color);
+}
+
+i.fa-search {
+    color: var(--bg-cont);
+    margin-right: 10px;
+}
+
+i.fa-search:hover {
+    color: var(--main-color);
+}
+
+button {
+    color: var(--lines-txt);
+    margin-right: 10px;
+    background-color: var(--bg-cont);
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: var(--main-color);
+}
+
+.title {
+    margin: 100px 0 20px 60px;
+    font-weight: 600;
+    font-size: 4rem;
+    width: 40%;
+    color: var(--lines-txt);
+}
+
+.title-lvl2 {
+    margin: 0px 20px 0px 80px;
+    width: auto;
+}
+
+.desc {
+    width: 400px;
+    margin-left: 60px;
+    color: var(--lines-txt);
+}
+
+.vertical-line {
+    margin-top: 80px;
+    height: 35vh;
+    border-left: 2px solid var(--lines-txt);
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.dpy-flx {
+    display: flex;
+}
+
+.dpy-blk {
+    display: block;
+}
+
+#social-media {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 50px;
+
+}
+
+#social-media .fa,
+.fa-user {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: var(--lines-txt);
+    margin-right: 10px;
+}
+
+#social-media .fa:hover,
+.fa-user:hover {
+    color: var(--bg-cont);
+}
+
+.card-member {
+    color: var(--lines-txt);
+    width: auto;
+    background-color: rgba(47, 79, 79, 0.5);
+    justify-content: center;
+    margin-right: 20px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 0.5em;
+    margin-top: 0.25em;
+}
+
+.mg-top {
+    margin-top: 40px;
+}
+
+.btn-amp{
+    margin-top: 0.35em;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.wdt-auto{
+    width: auto;
+}
+
+form{
+    width: 600px;
+    background-color: rgba(47, 79, 79, 0.5);
+    margin-left: 60px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form *{
+    color: var(--lines-txt);
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+form input, form textarea{
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0.7px;
+    border-color: var(--color-gr);
+    border-radius: 10px;
+    padding: 5px;
+}
+input::placeholder, textarea::placeholder{
+    color: var(--color-gr);
+}
+
+textarea{
+   height: 100px;
+}
+
+#results{
+    position: relative;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+
+.card-result{
+    width: 400px;
+    background-color: rgba(47, 79, 79, 0.4);
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: var(--lines-txt);
+}
+
+.fxd-z1{
+    position:fixed;
+    z-index: 1;
+}
+
+/*media queries*/
+@media screen and (max-width: 879px) {
+    #tvl-txt {
+        display: none;
+    }
+
+    #home-desc {
+        width: 50%;
+    }
+}
