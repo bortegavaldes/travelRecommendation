@@ -1,10 +1,15 @@
 Image references:
 - sydney: https://en.wikipedia.org/wiki/Sydney#/media/File:Sydney_Opera_House_and_Harbour_Bridge_Dusk_(2)_2019-06-21.jpg
+https://upload.wikimedia.org/wikipedia/commons/5/53/Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg
 - melbourne: https://en.wikipedia.org/wiki/Melbourne#/media/File:Melburnian_Skyline_b.jpg
+https://upload.wikimedia.org/wikipedia/commons/4/46/Melburnian_Skyline_b.jpg
 - tokyo: https://en.wikipedia.org/wiki/Tokyo#/media/File:Skyscrapers_of_Shinjuku_2009_January.jpg
+https://upload.wikimedia.org/wikipedia/commons/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg
 - kyoto: https://en.wikipedia.org/wiki/Kyoto#/media/File:Kinkaku3402CBcropped.jpg
 - rio-janeiro: https://en.wikipedia.org/wiki/Rio_de_Janeiro#/media/File:Cidade_Maravilhosa.jpg
 - saopaulo: https://en.wikipedia.org/wiki/S%C3%A3o_Paulo#/media/File:Marginal_Pinheiros_e_Jockey_Club.jpg
+- borabora:
+https://upload.wikimedia.org/wikipedia/commons/8/8d/BoraBora_SEtienne.jpg
 
 - rancho_beach: own image on Rancho Luna Hotel Beach
 
