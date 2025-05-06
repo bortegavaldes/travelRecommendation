@@ -231,6 +231,11 @@ textarea{
     color: var(--lines-txt);
 }
 
+.img-card{
+	width: 100%;
+	height: 200px;
+}
+
 .fxd-z1{
     position:fixed;
     z-index: 1;

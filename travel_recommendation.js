@@ -67,6 +67,7 @@ function searchByTerm() {
 }
 
 function setResult(obj) {
+    console.log(obj.imageUrl)
     resultStr = '<div class="card-result">';
     resultStr += `<img src="${obj.imageUrl}" alt="${obj.name}" class="img-card">`;
     resultStr += `<h3>${obj.name}</h3>`;
